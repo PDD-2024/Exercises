@@ -1,6 +1,6 @@
 # Cpp Exercise Unit 2
 
-- Upload to the following github rep, using a directory with your name the following Exercise.  
+- Clone the following Github rep and create a new branch with your name, create a directory where you will store the files for this exercise.
 [https://github.com/PDD-2024/CppExercise1.git ](https://github.com/PDD-2024/Exercises.git) 
 - Make an array of students structs that have grades, age, name. And in those structs must contain a function that returns true if the name is the same name as the one given and if the student has a passing grade.  
 - Use a function that swaps the grade of two students in the array.  
