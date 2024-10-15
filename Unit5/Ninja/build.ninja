@@ -1,0 +1,10 @@
+# Rule to compile a c++ source file
+rule compile
+    command = g++ -c $in -o $out
+
+rule link
+    command = g++ $in -o $out
+
+build output.o: compile main.cpp
+build header.o: compile header.cpp
+build app: link output.o header.o 
